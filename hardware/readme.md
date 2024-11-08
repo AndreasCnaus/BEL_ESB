@@ -2,7 +2,8 @@
 
 USB Powered STM32WB55 based breakout board for wireless applications within 2.4GHz ISM-Band (e.g BLE). 
 
-![BluetoothPill](https://github.com/user-attachments/assets/564b95e7-4ded-4884-adee-2dd17d575234)
+![BluetoothPill](https://github.com/user-attachments/assets/c8f6a64c-ed64-48be-9f7e-44d03efdb5f3)
+
 
 # Characteristics
 Input Voltage-Range: &nbsp; 3.4V - 5.5V <br>
