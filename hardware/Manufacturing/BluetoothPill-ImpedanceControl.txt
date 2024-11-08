@@ -1,0 +1,13 @@
+
+   Impedance control required
+
+ 1) 50 Ohms (+-10%) Single-Ended Microstrip
+    L1 (ref. L2)
+    Trace width = 0.17mm
+  
+  2) 90 Ohms (+-10%) Defferential Microstrip (50 Ohms (+-10%) Single-Ended))
+     L1 (ref. L2)
+     Trace width = 0.17mm
+     Trace spacing = 0.22mm
+
+ Confirm trace widths and spacings. Adjust stack-up as necessary. 
