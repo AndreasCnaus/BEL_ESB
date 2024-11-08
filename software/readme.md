@@ -11,8 +11,7 @@ The software presented here is simply intended to proof the concept. For this re
 
 The following hardware configuration was made in CubeIDE for this project. The blue LED at pin *PA10* is used as an error indicator and makes debugging easier.
 
-![pinout_view](https://github.com/user-attachments/assets/1b424e92-19d2-41c6-a507-55fdd37544c4)
-
+![pinout_view](https://github.com/user-attachments/assets/07986607-2466-4007-8c5b-5ebdd6c286d6)
 
 # Links
 - BME280 Datasheet: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf
