@@ -3,7 +3,8 @@
 - Bosch BME280 Sensor
 - RF-Antenna
 
-![BLE_ESB_Prototyp](https://github.com/user-attachments/assets/199a3083-84a4-4de7-88e2-589442b7c64e)
+![BLE_ESB_Prototyp](https://github.com/user-attachments/assets/afd345a9-49ae-4a76-9f7d-86f53bd7f310)
+
 
 # Verification with nRF-Connect
-![ble_es_data](https://github.com/user-attachments/assets/d512df72-27de-4c44-bb1b-d0e46cc641ae)
+![ble_es_data](https://github.com/user-attachments/assets/911f2a57-eca4-40f8-823e-5ed45d15c606)
