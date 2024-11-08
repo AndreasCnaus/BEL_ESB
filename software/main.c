@@ -34,7 +34,7 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-uint8_t tim16_flag = 0;
+volatile uint8_t tim16_flag = 0; // prevent compiler optimization
 
 /* USER CODE END PTD */
 
@@ -140,6 +140,7 @@ int main(void)
 
   while (1)
   {
+	  __disable_irq();
 	  if (tim16_flag){
 
 		  BME280_cmd_res cmd_res = BME280_read_env_data(&bme280);
@@ -149,7 +150,7 @@ int main(void)
 
 		  // convert measurement data to the appropriate units for nRF-Connect Application
 		  BME280_U32_t hum_prh = (float)bme280.H/kH * 100.0;	// relative humidity in Percent
-		  BME280_U32_t pres_pa=  bme280.P/kP;	//in Pascal
+		  BME280_U32_t pres_pa=  bme280.P/kP * 10;	//in Pascal
 
 		  Custom_STM_App_Update_Char(CUSTOM_STM_TEMPERATURE, (uint8_t *)&bme280.T);
 		  Custom_STM_App_Update_Char(CUSTOM_STM_HUMIDITY, (uint8_t *)&hum_prh);
@@ -157,6 +158,8 @@ int main(void)
 
 		  tim16_flag = 0;
 	  }
+	  __enable_irq();
+
     /* USER CODE END WHILE */
     MX_APPE_Process();
 
