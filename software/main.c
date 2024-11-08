@@ -140,7 +140,7 @@ int main(void)
 
   while (1)
   {
-	  __disable_irq();
+	 // __disable_irq();
 	  if (tim16_flag){
 
 		  BME280_cmd_res cmd_res = BME280_read_env_data(&bme280);
@@ -158,7 +158,7 @@ int main(void)
 
 		  tim16_flag = 0;
 	  }
-	  __enable_irq();
+	 // __enable_irq();
 
     /* USER CODE END WHILE */
     MX_APPE_Process();
