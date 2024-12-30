@@ -1,4 +1,4 @@
-# Bluetooth Breakout Board
+# RF Breakout Board
 
 USB Powered STM32WB55 based breakout board for wireless applications within 2.4GHz ISM-Band (e.g BLE). 
 
