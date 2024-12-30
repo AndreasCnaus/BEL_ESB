@@ -1,5 +1,5 @@
 # Hardware Setup
-- Bluetooth Breakout Board (see also Hardware Section)
+- RF Breakout Board (see also Hardware Section)
 - Bosch BME280 Sensor
 - RF-Antenna
 
